@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper{
+    margin: auto auto;
+    width: 1400px;
+    clear: both;
+}
+.title{
+    font-size: 42px;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.boxstyle{
+    background-color:#999999;
+    height: 170px;
+    width: 400px;
+    margin: 30px 30px;
+    border: 3px solid black;
+    float: left;
+    overflow: hidden;
+}
+
+.boxtitle{
+    background-color:#D59898;
+    width: 120px;
+    text-align: center;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 1px 0px;
+    float: right;
+}
+
+.beef{
+    background-color: #d8605e;
+}
+
+.sushi{
+    background-color: #E5D198;
+}
+
+.para{
+    padding: 15px 8px;
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+
+@media screen and (min-width: 992px)
+{
+    
+    .wrapper{
+        width: auto;
+    }
+
+    .box1{
+        width: 27%;
+    }
+
+    .box2{
+        width: 27%;
+    }
+
+    .box3{
+        width: 27%;
+    }
+
+    .title{
+       text-align: center;
+    }
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+   
+
+    .wrapper{
+        width:auto;
+
+    }
+
+    .box1{
+        width: 40%;
+    }
+
+    .box2{
+        width: 40%;
+    }
+
+    .box3{
+        width: 90%;
+    }
+
+    .title{
+        text-align: center;
+    }
+}
+
+
+
+
+@media screen and (max-width: 767px){
+  
+
+    .wrapper{
+        width: auto;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .box1{
+        width: 85%;
+    
+    }
+
+    .box2{
+        width: 85%;
+    }
+
+    .box3{
+        width: 85%;
+    }
+
+}
